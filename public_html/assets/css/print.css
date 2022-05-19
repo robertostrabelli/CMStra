@@ -1,0 +1,32 @@
+* {
+background:transparent !important;
+color:#000 !important;
+text-shadow:none !important;
+filter:none !important;
+-ms-filter:none !important;
+}
+
+body {
+margin:0;
+padding:0;
+line-height: 1.4em;
+}
+
+nav, footer, header,.noprint {
+display:none;
+}
+
+
+table {
+  border: 1px outset black;
+  border-spacing: 1px;
+  font-size:10px;
+}
+table th, table td {
+  border: 1px inset black;
+  padding: 2px;
+}
+
+@page {
+margin: 0.7cm;
+}

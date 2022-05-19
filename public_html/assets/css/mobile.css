@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'Strabelli';
+    src: url(Strabelli.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url(GandhiSans-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url(GandhiSans-BoldItalic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url(GandhiSans-Italic.otf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url(GandhiSans-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Serif';
+    src: url(GandhiSerif-Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Serif';
+    src: url(GandhiSerif-BoldItalic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gandhi Serif';
+    src: url(GandhiSerif-Italic.otf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gandhi Serif';
+    src: url(GandhiSerif-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* GENERAL STYLE */
+
+body {
+    font-family: 'Gandhi Serif';
+    font-size: 130%;
+    padding: 0;
+    color: rgb(85, 85, 85);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gandhi Sans', sans-serif;
+    letter-spacing: -1px;
+    color: #00416c;
+}
+
+a:hover,
+a:active {
+    color: #867900;
+    text-decoration: none;
+}
+
+blockquote,
+figcaption,
+caption {
+    font-size: 90%;
+}
+
+figcaption,
+caption,
+var {
+    font-family: 'Gandhi Sans', sans-serif;
+}
+
+table {
+    font-family: 'Gandhi Sans', sans-serif;
+    letter-spacing: -1px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+svg {
+    all: initial;
+}
+
+
+/* LIST AND NAV CONTENTS */
+
+div.listlinkscontents {
+    background-color: rgba(153, 153, 153, 0.158);
+    padding: 10px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+    display: block;
+    border-radius: 2px;
+}
+
+div.listlinkscontents p,
+div.navlinks p {
+    display: inline;
+}
+
+div.listlinkscontents a,
+div.navlinks a {
+    text-decoration: none;
+}
+
+div.navlinks {
+    clear: both;
+    font-size: 90%;
+    font-family: 'Gandhi Sans', sans-serif;
+    background-color: rgba(153, 153, 153, 0.158);
+    padding: 10px;
+    display: block;
+    border-radius: 2px;
+}
+
+div.navlinks a {
+    color: #00416c
+}
+
+div.navlinks span.navnext {
+    float: right;
+}
+
+
+/* HEADER */
+
+.header,
+.nav,
+.borda {
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+    background-color: rgba(250, 250, 250, 0.521);
+}
+
+.nav {
+    padding-bottom: 10px;
+}
+
+.header {
+    border-top: 1px solid rgba(127, 172, 255, 0.486);
+    border-left: 1px solid rgba(127, 172, 255, 0.486);
+    border-right: 1px solid rgba(127, 172, 255, 0.486);
+}
+
+.header a,
+.nav a {
+    text-decoration: none;
+    color: #00416c
+}
+
+.header h2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Strabelli', 'Gandhi Sans', sans-serif;
+    font-style: oblique;
+    font-weight: normal;
+    font-size: 195%;
+    letter-spacing: -4px;
+    color: #00416c;
+}
+
+.nav {
+    border-bottom: 1px solid rgba(127, 172, 255, 0.486);
+    border-left: 1px solid rgba(127, 172, 255, 0.486);
+    border-right: 1px solid rgba(127, 172, 255, 0.486);
+}
+
+.borda {
+    padding: 10px;
+}
+
+.search {
+    float: right;
+}
+
+.menu,
+.menu li,
+.menu li ul {
+    font-size: 20px;
+    font-family: 'Gandhi Sans', sans-serif;
+    letter-spacing: -1px;
+    list-style: none outside none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding-right: 10px;
+}
+
+
+/* MAIN CONTENT */
+
+.main .article h1 {
+    line-height: 1em;
+}
+
+.main .article h2 {
+    font-style: italic;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+.main .article h3 {
+    font-weight: lighter;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0px 40px 0px 80px;
+}
+
+img {
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+
+figure {
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    width: 100%;
+}
+
+.main p {
+    font-size: 115%;
+    line-height: 1.35;
+    letter-spacing: -1px;
+    /*line-height: 1.28;*/
+    margin: 0.8em 0;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+p.content_info {
+    font-family: 'Gandhi Sans', sans-serif;
+}
+
+p.content_info a::after {
+    content: ", ";
+}
+
+p.content_info a:last-of-type::after {
+    content: ".";
+}
+
+
+/* FOOTER */
+
+.footer {
+    font-family: 'Gandhi Sans', sans-serif;
+    padding: 10px 10px 0px 10px;
+    clear: both;
+    color: rgb(123, 123, 123);
+}
+
+.footer hr {
+    color: rgba(127, 172, 255, 0.486);
+}
+
+
+/* OTHER */
+
+.hideThis {
+    visibility: hidden;
+    display: none;
+}
+
+.showThis {
+    visibility: visible;
+}
+
+
+/* RESPONSIVE */
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@media all and (max-width:1000px) {
+    .search {
+        float: inherit;
+        text-align: right;
+    }
+    .main {
+        margin: 0px 40px 0px 40px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .main {
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .main {
+        margin: 0px 10px 0px 10px;
+    }
+}
